@@ -598,6 +598,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   scoreText: {fileID: 1854618004}
+  winText: {fileID: 2045918721}
 --- !u!50 &1036273667
 Rigidbody2D:
   serializedVersion: 4
@@ -1090,8 +1091,8 @@ GameObject:
   - component: {fileID: 2045918722}
   - component: {fileID: 2045918721}
   m_Layer: 5
-  m_Name: Text (Legacy)
-  m_TagString: Untagged
+  m_Name: winText
+  m_TagString: Win
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
