@@ -12,7 +12,7 @@ public class Player_Controler : MonoBehaviour
     void Start()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
-        Score = 1;
+        Score = 0;
     }
 
     void Update()
