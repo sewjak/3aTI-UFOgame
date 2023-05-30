@@ -5,6 +5,7 @@ using UnityEngine;
 public class Pickup : MonoBehaviour
 {
 
+
     void Start()
     {
         
@@ -12,6 +13,7 @@ public class Pickup : MonoBehaviour
 
     void Update()
     {
+
         transform.Rotate(new Vector3(0, 0, 45) * Time.deltaTime);
     }
 }
